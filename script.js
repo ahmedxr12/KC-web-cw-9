@@ -8,7 +8,7 @@ function addOrder() {
   let order = document.getElementById("order").value;
   
   // أنشئ كائن newOrder
-  const newOrder = {
+  let newOrder = {
     name ,
     id ,
     phone ,
